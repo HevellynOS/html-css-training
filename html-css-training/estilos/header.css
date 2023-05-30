@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header{
+    background-image: 
+    url("https://s3.sa-east-1.amazonaws.com/remotar-assets-prod/company-profile-covers/cl7god9gt00lx04wg4p2a93zt.jpg");
+    height: 250px;
+    width: 100%;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+ 
+}
+.links {
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(31, 30, 28);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+.links:hover{
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(146, 144, 140);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    transition: 3s;
+}
